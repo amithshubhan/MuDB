@@ -1,0 +1,41 @@
+# Build directories
+/build/
+/cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# SSTable data files (persisted storage)
+data/sstables/
+*.sst
+*.ldb
+
+# Logs or temporary files
+*.log
+*.tmp
+*.swp
+
+# VS Code settings
+.vscode/
+.vscode-launch.json
+.vscode-settings.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# zlib build cache (if built manually)
+zlib/
